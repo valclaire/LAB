@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dinner</string>
+    <string name="textView_headermain">Makan Malam</string>
+    <string name="editText_menu">Menu</string>
+    <string name="button_eatbus">Eatbus</string>
+    <string name="button_apnormal">Apnormal</string>
+    <string name="editText_porsi">Porsi</string>
+    <string name="textView_headermenu">Menu</string>
+    <string name="textView_headerporsi">Porsi</string>
+    <string name="textView_headerharga">Harga</string>
+    <string name="activity2_name">Dinner Result</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.valerov.dinner.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView_headermain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textView_headermain"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_header2main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_headermain"
+        android:layout_centerHorizontal="true"
+        android:text="Dengan Milea"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editText_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_header2main"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/button_eatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_porsi"
+        android:layout_marginTop="29dp"
+        android:layout_toLeftOf="@+id/textView_header2main"
+        android:layout_toStartOf="@+id/textView_header2main"
+        android:text="@string/button_eatbus"
+        android:onClick="Eatbus"
+        />
+
+    <Button
+        android:id="@+id/button_apnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_eatbus"
+        android:layout_alignBottom="@+id/button_eatbus"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/button_apnormal"
+        android:onClick="Apnormal"
+        />
+
+</RelativeLayout>
